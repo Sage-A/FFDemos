@@ -34,12 +34,6 @@ public class Sentence {
 				String s = temp[i];
 				Word word = new Word(s, i);
 				this.sentence.add(word);
-				
-			/*String[] strArr = sentence.split(" ");
-			List<String> list = Arrays.asList(strArr);
-			Word word = new Word(list.toString(), pos);
-			this.sentence.add(word); */
-			//this.pos = pos;
 			}
 			this.pos = pos;
 		}
